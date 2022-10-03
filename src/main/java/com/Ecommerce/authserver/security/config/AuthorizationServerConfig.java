@@ -118,7 +118,7 @@ public class AuthorizationServerConfig {
                 .clientAuthenticationMethod(ClientAuthenticationMethod.CLIENT_SECRET_POST)
                 .authorizationGrantType(AuthorizationGrantType.AUTHORIZATION_CODE)
                 .authorizationGrantType(AuthorizationGrantType.REFRESH_TOKEN)
-                .redirectUri("https://288b-41-68-73-255.eu.ngrok.io/Login/debug")
+                .redirectUri("https://oidcdebugger.com/debug")
                 .scope(OidcScopes.OPENID)
                 .scope("read")
                 .scope("write")
